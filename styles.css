@@ -86,9 +86,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><linearGradient id="buildingGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23ffffff;stop-opacity:0.1"/><stop offset="100%" style="stop-color:%23ffffff;stop-opacity:0.05"/></linearGradient></defs><rect x="100" y="200" width="80" height="400" fill="url(%23buildingGrad)" rx="4"/><rect x="200" y="150" width="100" height="450" fill="url(%23buildingGrad)" rx="4"/><rect x="320" y="180" width="90" height="420" fill="url(%23buildingGrad)" rx="4"/><rect x="430" y="120" width="110" height="480" fill="url(%23buildingGrad)" rx="4"/><rect x="560" y="160" width="85" height="440" fill="url(%23buildingGrad)" rx="4"/><rect x="665" y="140" width="95" height="460" fill="url(%23buildingGrad)" rx="4"/><rect x="780" y="190" width="80" height="410" fill="url(%23buildingGrad)" rx="4"/><rect x="880" y="170" width="100" height="430" fill="url(%23buildingGrad)" rx="4"/><rect x="1000" y="200" width="90" height="400" fill="url(%23buildingGrad)" rx="4"/></svg>') center/cover no-repeat;
-    opacity: 0.3;
-    animation: skylineFloat 20s ease-in-out infinite;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><linearGradient id="buildingGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23ffffff;stop-opacity:0.15"/><stop offset="100%" style="stop-color:%23ffffff;stop-opacity:0.08"/></linearGradient><linearGradient id="windowGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23fbbf24;stop-opacity:0.8"/><stop offset="100%" style="stop-color:%23f59e0b;stop-opacity:0.6"/></linearGradient></defs><!-- Modern Office Buildings --><rect x="50" y="180" width="90" height="320" fill="url(%23buildingGrad)" rx="6"><animate attributeName="height" values="320;330;320" dur="8s" repeatCount="indefinite"/></rect><rect x="60" y="200" width="8" height="12" fill="url(%23windowGrad)" rx="1" opacity="0.9"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/></rect><rect x="72" y="200" width="8" height="12" fill="url(%23windowGrad)" rx="1" opacity="0.7"><animate attributeName="opacity" values="0.7;0.4;0.7" dur="4s" repeatCount="indefinite"/></rect><rect x="84" y="200" width="8" height="12" fill="url(%23windowGrad)" rx="1" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="5s" repeatCount="indefinite"/></rect><!-- Residential Complex --><rect x="160" y="220" width="120" height="280" fill="url(%23buildingGrad)" rx="8"><animate attributeName="height" values="280;290;280" dur="12s" repeatCount="indefinite"/></rect><rect x="170" y="240" width="6" height="10" fill="url(%23windowGrad)" rx="1" opacity="0.6"><animate attributeName="opacity" values="0.6;0.9;0.6" dur="6s" repeatCount="indefinite"/></rect><rect x="190" y="240" width="6" height="10" fill="url(%23windowGrad)" rx="1" opacity="0.8"><animate attributeName="opacity" values="0.8;0.3;0.8" dur="7s" repeatCount="indefinite"/></rect><!-- High-rise Tower --><rect x="300" y="100" width="80" height="400" fill="url(%23buildingGrad)" rx="4"><animate attributeName="height" values="400;410;400" dur="15s" repeatCount="indefinite"/></rect><rect x="310" y="120" width="6" height="8" fill="url(%23windowGrad)" rx="1" opacity="0.9"><animate attributeName="opacity" values="0.9;0.4;0.9" dur="2s" repeatCount="indefinite"/></rect><rect x="320" y="120" width="6" height="8" fill="url(%23windowGrad)" rx="1" opacity="0.7"><animate attributeName="opacity" values="0.7;0.5;0.7" dur="3s" repeatCount="indefinite"/></rect><!-- Commercial Complex --><rect x="400" y="160" width="140" height="340" fill="url(%23buildingGrad)" rx="10"><animate attributeName="height" values="340;350;340" dur="10s" repeatCount="indefinite"/></rect><rect x="420" y="180" width="10" height="15" fill="url(%23windowGrad)" rx="2" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/></rect><!-- Mixed-use Development --><rect x="560" y="140" width="100" height="360" fill="url(%23buildingGrad)" rx="6"><animate attributeName="height" values="360;370;360" dur="9s" repeatCount="indefinite"/></rect><!-- Luxury Condos --><rect x="680" y="200" width="110" height="300" fill="url(%23buildingGrad)" rx="8"><animate attributeName="height" values="300;310;300" dur="11s" repeatCount="indefinite"/></rect><!-- Corporate Headquarters --><rect x="810" y="120" width="95" height="380" fill="url(%23buildingGrad)" rx="5"><animate attributeName="height" values="380;390;380" dur="13s" repeatCount="indefinite"/></rect><!-- Investment Property --><rect x="920" y="180" width="85" height="320" fill="url(%23buildingGrad)" rx="4"><animate attributeName="height" values="320;330;320" dur="7s" repeatCount="indefinite"/></rect><!-- Floating Elements --><circle cx="200" cy="80" r="3" fill="%23ffffff" opacity="0.4"><animate attributeName="cy" values="80;60;80" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;0.8;0.4" dur="6s" repeatCount="indefinite"/></circle><circle cx="600" cy="70" r="2" fill="%23ffffff" opacity="0.3"><animate attributeName="cy" values="70;50;70" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.7;0.3" dur="8s" repeatCount="indefinite"/></circle></svg>') center/cover no-repeat;
+    opacity: 0.4;
+    animation: cityPulse 25s ease-in-out infinite;
 }
 
 .hero::after {
@@ -98,19 +98,40 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 30% 20%, rgba(37, 99, 235, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 70% 80%, rgba(96, 165, 250, 0.1) 0%, transparent 50%);
-    animation: gradientShift 15s ease-in-out infinite alternate;
+    background: radial-gradient(circle at 30% 20%, rgba(37, 99, 235, 0.08) 0%, transparent 60%),
+                radial-gradient(circle at 70% 80%, rgba(96, 165, 250, 0.08) 0%, transparent 60%),
+                radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.03) 0%, transparent 40%);
+    animation: marketGlow 20s ease-in-out infinite alternate;
 }
 
-@keyframes skylineFloat {
-    0%, 100% { transform: translateY(0px) scale(1); }
-    50% { transform: translateY(-10px) scale(1.02); }
+@keyframes cityPulse {
+    0%, 100% { 
+        transform: translateY(0px) scale(1);
+        opacity: 0.4;
+    }
+    33% { 
+        transform: translateY(-8px) scale(1.01);
+        opacity: 0.5;
+    }
+    66% { 
+        transform: translateY(-5px) scale(1.015);
+        opacity: 0.45;
+    }
 }
 
-@keyframes gradientShift {
-    0% { opacity: 0.3; }
-    100% { opacity: 0.6; }
+@keyframes marketGlow {
+    0% { 
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(1.02);
+    }
+    100% { 
+        opacity: 0.4;
+        transform: scale(1.01);
+    }
 }
 
 .hero-content {
