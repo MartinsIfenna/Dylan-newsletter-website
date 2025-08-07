@@ -261,19 +261,25 @@ body {
 }
 
 .newsletter-tag {
-    background: #2563eb;
+    background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
     color: white;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+    letter-spacing: 0.5px;
 }
 
 .newsletter-date {
-    color: #6b7280;
-    font-size: 0.875rem;
-    font-weight: 500;
+    color: #4b5563;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: rgba(107, 114, 128, 0.1);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    border: 1px solid rgba(107, 114, 128, 0.2);
 }
 
 .newsletter-card h3 {
