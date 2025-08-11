@@ -26,6 +26,7 @@
 
     <main class="newsletter-main">
         <div class="newsletter-container">
+            <!-- Full-width header -->
             <header class="newsletter-header">
                 <div class="newsletter-date">August 7, 2025</div>
                 
@@ -35,29 +36,35 @@
                 <p class="newsletter-intro">The Minnesota multifamily market tells the story every regional specialist dreams of: explosive growth driven by fundamental strength rather than speculative fervor.</p>
             </header>
             
-            <div class="executive-summary-section">
-                <h2>Executive Summary</h2>
-                <div class="executive-summary-grid">
-                    <div class="summary-item">
-                        <span class="summary-icon">📈</span>
-                        <p>Minneapolis multifamily sales surge 95% YoY, leading national growth metrics</p>
+            <!-- 3-column layout container -->
+            <div class="newsletter-layout">
+                <!-- Main content column -->
+                <div class="main-content">
+                    <!-- Executive Summary -->
+                    <div class="executive-summary-section">
+                        <h2>Executive Summary</h2>
+                        <div class="executive-summary-grid">
+                            <div class="summary-item">
+                                <span class="summary-icon">📈</span>
+                                <p>Minneapolis multifamily sales surge 95% YoY, leading national growth metrics</p>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-icon">🏗️</span>
+                                <p>Supply discipline during pandemic boom creates sustainable fundamentals today</p>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-icon">🎯</span>
+                                <p>Northmarq captures steady growth with deep local expertise in explosive market</p>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-icon">🌟</span>
+                                <p>Regional specialists positioned to outperform as markets turn hyper-local</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="summary-item">
-                        <span class="summary-icon">🏗️</span>
-                        <p>Supply discipline during pandemic boom creates sustainable fundamentals today</p>
-                    </div>
-                    <div class="summary-item">
-                        <span class="summary-icon">🎯</span>
-                        <p>Northmarq captures steady growth with deep local expertise in explosive market</p>
-                    </div>
-                    <div class="summary-item">
-                        <span class="summary-icon">🌟</span>
-                        <p>Regional specialists positioned to outperform as markets turn hyper-local</p>
-                    </div>
-                </div>
-            </div>
-
-            <article class="newsletter-content">
+                    
+                    <!-- Main newsletter content -->
+                    <article class="newsletter-content">
                 <div class="intro-section">
                     <p class="lead">The Minnesota multifamily market in 2025 tells the story every regional specialist dreams of: explosive growth driven by fundamental strength rather than speculative fervor. While national headlines focus on coastal recoveries and Sun Belt corrections, Minneapolis has quietly become institutional capital's preferred Midwest destination—and Northmarq's local expertise positions us perfectly to capitalize.</p>
                 </div>
@@ -166,12 +173,74 @@
                     </div>
                 </section>
 
-                <div class="newsletter-conclusion">
-                    <p><em>The Minnesota multifamily market in 2025 rewards preparation, patience, and local expertise—exactly the combination Northmarq brings to every transaction.</em></p>
-                    <p class="disclaimer"><em>Views are my own; not investment advice.</em></p>
+                        <div class="newsletter-conclusion">
+                            <p><em>The Minnesota multifamily market in 2025 rewards preparation, patience, and local expertise—exactly the combination Northmarq brings to every transaction.</em></p>
+                            <p class="disclaimer"><em>Views are my own; not investment advice.</em></p>
+                        </div>
+                    </article>
                 </div>
-            </article>
-
+                
+                <!-- Sidebar column -->
+                <aside class="newsletter-sidebar">
+                    <!-- Subscribe box -->
+                    <div class="sidebar-widget subscribe-widget">
+                        <h3>Subscribe to CRE Intelligence</h3>
+                        <p>Get weekly insights on commercial real estate markets, trends, and opportunities.</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                        <p class="subscribe-note">Join 2,500+ CRE professionals</p>
+                    </div>
+                    
+                    <!-- Author info -->
+                    <div class="sidebar-widget author-widget">
+                        <h3>About Dylan Steman</h3>
+                        <div class="author-info">
+                            <div class="author-avatar">
+                                <img src="https://via.placeholder.com/80x80/2563eb/ffffff?text=DS" alt="Dylan Steman">
+                            </div>
+                            <div class="author-details">
+                                <p>Commercial real estate analyst specializing in multifamily markets and investment strategies.</p>
+                                <a href="index.html#about" class="author-link">Learn more →</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Related articles -->
+                    <div class="sidebar-widget related-widget">
+                        <h3>Related Insights</h3>
+                        <div class="related-articles">
+                            <article class="related-article">
+                                <h4><a href="#">Sun Belt Multifamily: Correction or Opportunity?</a></h4>
+                                <p class="article-meta">July 2025 • 4 min read</p>
+                            </article>
+                            <article class="related-article">
+                                <h4><a href="#">Agency Lending in Rising Rate Environment</a></h4>
+                                <p class="article-meta">June 2025 • 6 min read</p>
+                            </article>
+                            <article class="related-article">
+                                <h4><a href="#">Midwest Markets: The New Institutional Favorite</a></h4>
+                                <p class="article-meta">May 2025 • 5 min read</p>
+                            </article>
+                        </div>
+                    </div>
+                    
+                    <!-- Ad space -->
+                    <div class="sidebar-widget ad-widget">
+                        <div class="ad-placeholder">
+                            <p>Advertisement</p>
+                            <div class="ad-content">
+                                <h4>CRE Analytics Platform</h4>
+                                <p>Advanced market data and insights for commercial real estate professionals.</p>
+                                <a href="#" class="ad-cta">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            
+            <!-- Full-width navigation -->
             <div class="newsletter-navigation">
                 <a href="index.html" class="nav-button">← Back to All Newsletters</a>
                 <div class="share-buttons">
